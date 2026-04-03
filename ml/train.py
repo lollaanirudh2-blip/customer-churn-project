@@ -43,3 +43,4 @@ print(classification_report(y_test, y_pred))
 joblib.dump(model, "ml/churn_model.pkl")
 
 print("\nModel saved successfully!")
+print(X.columns.tolist())
